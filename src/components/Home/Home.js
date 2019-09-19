@@ -6,13 +6,13 @@ import './Home.css';
 
 const links = (
     <div className='Links'>
-        <a href='/'>
+        <a href='https://www.facebook.com/jason.tran.355744'>
             <Icon className='facebook' size='big' />
         </a>
-        <a href='/'>
+        <a href='https://github.com/jasonjtran'>
             <Icon className='github' size='big' />
         </a>
-        <a href='/'>
+        <a href='https://www.linkedin.com/in/jasonjtran/'>
             <Icon className='linkedin' size='big' />
         </a>
     </div>
@@ -20,16 +20,21 @@ const links = (
 
 const Home = () => {
     return (
-        <div className='HomeCard'>
-            <h1>Jason Tran</h1>
+        <div className='Home'>
+            <h1 className='HomeText'>Jason Tran</h1>
             <img className="Profile" src={ProfilePic} alt={ProfilePic}></img>
             {links}
-            <Button primary animated='fade' size='medium' className='ResumeButton'>
+            <Button 
+                primary 
+                compact 
+                animated='fade' 
+                size='medium'
+                className='ResumeButton'>
                 <Button.Content visible>
-                    <Icon className='dochub' size='large'/>
+                    <Icon className='paperclip'/>
                 </Button.Content>
                 <Button.Content hidden>
-                    Click for my Resume!
+                    <span className='HomeText'>Get Resume</span>
                 </Button.Content>
             </Button>
         </div>
