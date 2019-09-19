@@ -1,0 +1,23 @@
+h1 {
+    font-size: 2.5rem;
+}
+
+.HomeCard {
+    margin: 0 auto 0 auto;
+    height: 60%;
+}
+
+.Profile {
+    height: 70%;
+    border-radius: 25%;
+}
+
+.Links {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 10%;
+}
+
+.ResumeButton {
+    width: 75%;
+}

@@ -1,0 +1,10 @@
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+}

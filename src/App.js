@@ -1,10 +1,12 @@
 import React from 'react';
-import MenuTest from './Components/TestMenu';
+
+import Home from './components/Home/Home';
+import './App.css';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
-      <MenuTest></MenuTest>
+      <Home />
     </div>
   );
 }
