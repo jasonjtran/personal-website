@@ -21,7 +21,7 @@ const links = (
 const Home = () => {
     return (
         <div className='Home'>
-            <h1 className='HomeText'>Jason Tran</h1>
+            <h1 className='HomeText'>Jason J. Tran</h1>
             <img className="Profile" src={ProfilePic} alt={ProfilePic}></img>
             {links}
             <Button 
