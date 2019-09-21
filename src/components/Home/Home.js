@@ -29,7 +29,8 @@ const Home = () => {
                 compact 
                 animated='fade' 
                 size='medium'
-                className='ResumeButton'>
+                className='ResumeButton'
+                href='https://drive.google.com/file/d/1mGWDrMOXMpapCj3riz4eeotYE34b54--/view?usp=sharing'>
                 <Button.Content visible>
                     <Icon className='paperclip'/>
                 </Button.Content>
